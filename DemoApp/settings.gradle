@@ -1,0 +1,4 @@
+include ':app'
+include ":ServiceApiLibrary"
+project(':ServiceApiLibrary').projectDir= new File('..\\Appservice_for_demo_app\\ServiceApiLibrary')
+rootProject.name = "Demo App"
